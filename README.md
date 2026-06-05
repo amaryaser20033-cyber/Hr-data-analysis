@@ -16,8 +16,8 @@ The dataset is covering demographics, compensation, job roles, departments, educ
 
 ## Tools Used
 
-- **Power BI** — 3-page interactive dashboard with slicers and KPI cards
-- **Power Query** — Data cleaning and transformation pipeline
+- **Power BI** : Interactive dashboard with slicers and KPI cards
+- **Power Query** :  Data cleaning and transformation pipeline
 
 ---
 
@@ -35,36 +35,6 @@ The dataset had significant quality issues that required thorough cleaning.
 - Recalculated total compensation where values were missing
 - Added salary category groups
 - Added age category groups
-
----
-
-## Dashboard Pages
-
-The report is built across **3 dashboard pages** with slicers for:
-
-- Department
-- Job Role
-- Gender
-- Salary Category
-- Age Category
-
-### 1. HR Overview
-
-High-level summary of the full workforce.
-
-**Show Image**
-
-### 2. Attrition Dashboard
-
-Deep dive into attrition patterns across salary, gender, age, and department.
-
-**Show Image**
-
-### 3. Employees Dashboard
-
-Employee distribution and compensation breakdown across departments and positions.
-
-**Show Image**
 
 ---
 
@@ -114,7 +84,7 @@ Gender does not appear to be a significant attrition factor.
 - Senior (46+): **147**
 - Young (<31): **83**
 
-Mid-career employees have the highest attrition count.
+Mid age employees have the highest attrition count.
 
 ### Employee Distribution
 
@@ -157,7 +127,3 @@ The workforce is primarily composed of experienced employees.
 ## Conclusion
 
 This project analyzes employee attrition across 2,000 records using a heavily cleaned HR dataset. The analysis reveals that attrition is a company-wide challenge rather than a problem isolated to a single department or demographic group.
-
-The project demonstrates practical skills in Power Query data cleaning, HR analytics, KPI development, and Power BI dashboard creation while delivering actionable workforce insights.
-
----
